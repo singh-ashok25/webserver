@@ -9,6 +9,3 @@ python3 , Flask
 # example command
 python3 app.py 
 
-
-# This line is adeed in feature Branch
-# New commit for master
