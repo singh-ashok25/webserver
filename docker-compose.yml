@@ -1,0 +1,9 @@
+version: '3'
+  
+services:
+  product-services:
+    build: .
+    volumes:
+      - ./webserver:/webserver
+    ports:
+      - 5001:4080
