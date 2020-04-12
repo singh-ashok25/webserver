@@ -14,5 +14,9 @@ def about():
 def ashok_new():
     return render_template('ashok_new.html')
 
+@app.route("/surya_new.html")
+def surya_new():
+    return render_template('surya_new.html')
+
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=4080)
