@@ -14,9 +14,13 @@ def about():
 def tushar_new():
     return render_template('tushar_new.html')
 
+@app.route("/arnab.html")
+def arnab():
+    return render_template('arnab.html')
+
 #@app.route("/surya_new.html")
 #def surya_new():
 #    return render_template('surya_new.html')
 
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0", port=4080)
+    app.run(debug=True, host="0.0.0.0", port=4082)
