@@ -11,6 +11,10 @@ def main():
 def about():
     return render_template('about.html')
 
+@app.route("/<your_name>.html")
+def Sushant():
+    return render_template('Sushant.html')
+
 @app.route("/tushar_new.html")
 def tushar_new():
     return render_template('tushar_new.html')
